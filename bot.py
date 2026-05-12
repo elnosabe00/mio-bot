@@ -1,7 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8786810897:AAEG1E43Gy4cOY3kKezbPimUxC3DZGsTyiQ"
+import os
+TOKEN = os.environ.get("8786810897:AAEG1E43Gy4cOY3kKezbPimUxC3DZGsTyiQ")
 CHANNEL_ID = -1003791582402
 
 
